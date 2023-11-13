@@ -4,6 +4,45 @@
     align-items: center;
     height: 100vh;
   }
+.header{
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar {
+    padding-top: 5%;
+    position: relative;
+    width: 200px;
+    height: 10px;
+}
+.box_1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 80%;
+    background-color: white;
+    border: 0.1em solid black;
+    margin-top: 27%;
+    font-size: 25px;
+    text-align: center;
+    padding: 0.4em;
+    cursor: pointer;
+}
+.box_2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 80%;
+    background-color: black;
+    border: 0.1em solid black;
+    margin-top: 27%;
+    font-size: 25px;
+    text-align: center;
+    padding: 0.4em;
+    cursor: pointer;
+}
   #map {
     width: 450px;
     height: 450px;
