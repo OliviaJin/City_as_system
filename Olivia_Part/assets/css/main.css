@@ -454,7 +454,7 @@ svg path {
   }
 }
 #hero header {
-osition: relative;
+    position: relative;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
