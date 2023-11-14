@@ -1,4 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Raleway:100,400,700";
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300;600&display=swap');
 @font-face {
   font-family: "LMRomanSlant10";
   src: url("fonts/lmromanslant10-regular-webfont.eot");
@@ -110,7 +111,8 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: 'Jost', sans-serif;
+  font-weight: 600px;
   font-size: 1em;
 }
 button,
@@ -195,15 +197,15 @@ th {
     url("fonts/icomoon.ttf?3hi6ws") format("truetype"),
     url("fonts/icomoon.woff?3hi6ws") format("woff"),
     url("fonts/icomoon.svg?3hi6ws#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Jost', sans-serif;
+  font-weight: 600px;
 }
 [class^="icon-"],
 [class*=" icon-"] {
   font-family: "icomoon" !important;
   speak: none;
-  font-style: normal;
-  font-weight: normal;
+  font-family: 'Jost', sans-serif;
+  font-weight: 600px;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
@@ -232,7 +234,7 @@ body {
   background-color: #fff;
   font-size: 16px;
   line-height: 1.6;
-  font-family: "LMRomanSlant10", serif;
+  font-family: 'Jost', sans-serif;
   color: #111;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -276,6 +278,8 @@ h5,
 h6 {
   color: #222;
   font-weight: bold;
+  font-family: "Raleway", Helvetica, sans-serif;
+
 }
 .gigantic {
   font-size: 110px;
@@ -1097,8 +1101,8 @@ osition: relative;
   margin-top: 0;
   margin-bottom: 30px;
   font-size: 42px;
-  font-family: "Raleway", Helvetica, sans-serif;
-  font-weight: 100;
+  font-family: 'Jost', sans-serif;
+  font-weight: 300px;
 }
 @media (max-width: 640px) {
   #contact .wrapper .blurb h2 {
@@ -1124,7 +1128,8 @@ osition: relative;
   -ms-flex-pack: justify;
   justify-content: space-between;
   color: #111;
-  font-family: "Raleway", Helvetica, sans-serif;
+  font-family: 'Jost', sans-serif;
+  font-weight: 600px;
 }
 #contact .wrapper form input[type="email"],
 #contact .wrapper form input[type="text"] {
@@ -1207,6 +1212,7 @@ osition: relative;
   -webkit-transform: translate(-50%);
   transform: translate(-50%);
   margin-bottom: 0;
-  font-family: "Raleway", Helvetica, sans-serif;
+  font-family: 'Jost', sans-serif;
   font-size: 12px;
 }
+
