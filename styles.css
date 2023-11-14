@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300;600&display=swap');
+
 body, h1, h2, p, button, label {
     margin: 0;
     padding: 0;
@@ -43,6 +45,8 @@ header {
     text-align: center;
     padding: 0.4em;
     cursor: pointer;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600px;
 }
 .box_2 {
     position: absolute;
@@ -65,6 +69,8 @@ header h1 {
 
 header p {
     margin-bottom: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300px;
 }
 
 #nyc-images {
@@ -83,6 +89,8 @@ section {
 h2 {
     font-size: 1.5em;
     margin-bottom: 15px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600px;
 }
 
 button {
