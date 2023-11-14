@@ -450,12 +450,12 @@ svg path {
   }
 }
 #hero header {
-    position: relative;
+osition: relative;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 80px;
+    width: 100%;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -464,7 +464,7 @@ svg path {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-left: 10%;
+    margin-left: -2%;
     cursor: pointer;
 }
 #hero header .nav-toggle {
