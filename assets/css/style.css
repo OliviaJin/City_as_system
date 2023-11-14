@@ -14,6 +14,8 @@
     position: relative;
     width: 200px;
     height: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .box_1 {
     position: absolute;
@@ -24,7 +26,7 @@
     background-color: white;
     border: 0.1em solid black;
     margin-top: 5%;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     padding: 0.4em;
     cursor: pointer;
@@ -38,7 +40,7 @@
     background-color: black;
     border: 0.1em solid black;
     margin-top: 5%;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     padding: 0.4em;
     cursor: pointer;
