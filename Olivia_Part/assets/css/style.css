@@ -30,6 +30,14 @@
     text-align: center;
     padding: 0.4em;
     cursor: pointer;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600px;
+}
+a {
+    text-decoration: none;
+ }
+b {
+    color: black;
 }
 .box_2 {
     position: absolute;
