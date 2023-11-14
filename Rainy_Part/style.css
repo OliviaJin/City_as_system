@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300;600&display=swap');
 
 * {
     padding: 0;
@@ -36,6 +38,14 @@ html,
     text-align: center;
     padding: 0.4em;
     cursor: pointer;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600px;
+}
+a {
+    text-decoration: none;
+ }
+b {
+    color: black;
 }
 .box_2 {
     position: absolute;
@@ -165,9 +175,13 @@ html,
 }
 .r_commercial h3 {
     text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600px;
 }
 .r_commercial p {
     font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300px;
 }
 .r_house {
     position: absolute;
@@ -182,9 +196,13 @@ html,
 }
 .r_house h3 {
     text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600px;
 }
 .r_house p {
     font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300px;
 }
 .r_personal {
     position: absolute;
@@ -199,9 +217,13 @@ html,
 }
 .r_personal h3 {
     text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600px;
 }
 .r_personal p {
     font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300px;
 }
 .r_transport {
     position: absolute;
@@ -216,9 +238,13 @@ html,
 }
 .r_transport h3 {
     text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600px;
 }
 .r_transport p {
     font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300px;
 }
 
 .r_commercial, .r_personal, .r_transport, .r_house {
