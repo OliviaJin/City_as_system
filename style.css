@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,
+html,
+.main{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar {
+    padding-top: 5%;
+    position: relative;
+    width: 200px;
+    height: 10px;
+}
+.box_1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 80%;
+    background-color: white;
+    border: 0.1em solid black;
+    margin-top: 27%;
+    font-size: 25px;
+    text-align: center;
+    padding: 0.4em;
+    cursor: pointer;
+}
+.box_2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 80%;
+    background-color: black;
+    border: 0.1em solid black;
+    margin-top: 27%;
+    font-size: 25px;
+    text-align: center;
+    padding: 0.4em;
+    cursor: pointer;
+}
+.middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box1 {
+    width: 100%;
+    position: relative;
+}
+.city{
+    position: absolute;
+    width: 65%;
+    margin: 5% 32%;
+}
+.tag {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 30%;
+    margin: 5% 5% ;
+    /* font-family: 'Martel Sans', sans-serif; */
+    font-weight: 200;
+}
+.container-name {
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+.tag_button {
+  cursor: pointer;
+  border: none;
+  background: #404040;
+  color: #ffffff;
+  font-weight: 100;
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}
+
+.tag_button :hover {
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 3px;
+  background: none;
+  transition: all 0.3s ease 0s;
+}
+
+
+.photo {
+    position: relative;
+}
+.photo img {
+    display: none;
+}
+.BBQ{
+    position: absolute;
+    width: 13.5%;
+    left: 74.2%;
+    margin-top: 37.49%;
+}
+.vehicle{
+    width: 17.8%;
+    position: absolute;
+    left: 63.76%;
+    margin-top: 20.1%;
+}
+.house{
+    width: 23.25%;
+    position: absolute;
+    left: 44.49%;
+    margin-top: 6.6%;
+}
+.smoke{
+    width: 14%;
+    position: absolute;
+    left: 81%;
+    margin-top: 15.23%;
+}
+.boat{
+    width: 13.5%;
+    position: absolute;
+    left: 64.2%;
+    margin-top: 3.26%;
+}
+.subway{
+    width: 10.3%;
+    position: absolute;
+    left: 50.09%;
+    margin-top: 40.8%;
+}
+.product{
+    width: 12.8%;
+    position: absolute;
+    left: 57.5%;
+    margin-top: 25.24%;
+}
+.explain {
+    position: relative;
+}
+.r_commercial {
+    position: absolute;
+    border-radius: 5%;
+    width: 23%;
+    left: 72%;
+    margin-top: 11%;
+    padding: 1.5%;
+    font-size: 20px;
+    background-color: white;
+    opacity: 90%;
+}
+.r_commercial h3 {
+    text-align: center;
+}
+.r_commercial p {
+    font-size: 18px;
+}
+.r_house {
+    position: absolute;
+    border-radius: 5%;
+    width: 23%;
+    left: 70%;
+    margin-top: 14%;
+    padding: 1.5%;
+    font-size: 20px;
+    background-color: white;
+    opacity: 90%;
+}
+.r_house h3 {
+    text-align: center;
+}
+.r_house p {
+    font-size: 18px;
+}
+.r_personal {
+    position: absolute;
+    border-radius: 5%;
+    width: 52%;
+    left: 38%;
+    margin-top: 30%;
+    padding: 1.5%;
+    font-size: 20px;
+    background-color: white;
+    opacity: 90%;
+}
+.r_personal h3 {
+    text-align: center;
+}
+.r_personal p {
+    font-size: 18px;
+}
+.r_transport {
+    position: absolute;
+    border-radius: 5%;
+    width: 25%;
+    left: 35%;
+    margin-top: 11%;
+    padding: 1.5%;
+    font-size: 20px;
+    background-color: white;
+    opacity: 90%;
+}
+.r_transport h3 {
+    text-align: center;
+}
+.r_transport p {
+    font-size: 18px;
+}
+
+.r_commercial, .r_personal, .r_transport, .r_house {
+    display: none;
+}
