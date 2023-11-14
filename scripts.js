@@ -1,5 +1,17 @@
-// Load the world GeoJSON data (this is just a placeholder, you need to load actual data)
 let boxList = document.querySelectorAll('.box_1');
+
+boxList.forEach((item) => {
+    item.addEventListener('mouseover',function(){
+        item.style.top = '-10px'
+        item.style.left = '-10px'
+    })
+
+    item.addEventListener('mouseleave', function(){
+        item.style.top = '0px'
+        item.style.left = '0px'
+    })
+})
+// Load the world GeoJSON data (this is just a placeholder, you need to load actual data)
 d3.json('path_to_your_geojson_file.json').then(worldData => {
     // Assuming 'worldData' is a GeoJSON object containing countries' data
   
