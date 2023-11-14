@@ -1,0 +1,90 @@
+body, h1, h2, p, button, label {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header p {
+    margin-bottom: 20px;
+}
+
+#nyc-images {
+    width: 100%;
+    height: 300px; /* Adjust based on my image's aspect ratio */
+    background-color: #e0e0e0; /* Temporary placeholder color */
+    position: relative; /* To overlay images */
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+#city-map {
+    width: 100%;
+    height: 300px;
+    background-color: #e0e0e0;
+    position: relative;
+}
+
+#solutions {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#area-chart {
+    width: 100%;
+    height: 300px;
+    background-color: #e0e0e0;
+    position: relative;
+    margin-bottom: 20px;
+}
