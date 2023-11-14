@@ -1,4 +1,5 @@
 // Load the world GeoJSON data (this is just a placeholder, you need to load actual data)
+let boxList = document.querySelectorAll('.box_1');
 d3.json('path_to_your_geojson_file.json').then(worldData => {
     // Assuming 'worldData' is a GeoJSON object containing countries' data
   
