@@ -467,7 +467,7 @@ svg path {
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
-  justify-content: flex-end;
+  justify-content: space-around;
   z-index: 10;
 }
 #hero header .nav-toggle {
