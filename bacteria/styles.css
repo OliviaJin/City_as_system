@@ -46,6 +46,7 @@ b {
     cursor: pointer;
 }
   header, section {
+    height: 10%;
     margin: 20px;
     padding: 15px;
   }
