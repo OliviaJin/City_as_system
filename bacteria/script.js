@@ -1,3 +1,15 @@
+let boxList = document.querySelectorAll('.box_1');
+boxList.forEach((item) => {
+    item.addEventListener('mouseover',function(){
+        item.style.top = '-10px'
+        item.style.left = '-10px'
+    })
+
+    item.addEventListener('mouseleave', function(){
+        item.style.top = '0px'
+        item.style.left = '0px'
+    })
+})
 // Load the GeoJSON data for NYC boundaries 
 d3.json('nyc-boroughs.geojson').then(geojsonData => {
     const width = 960, height = 600;
