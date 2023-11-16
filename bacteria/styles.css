@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300;600&display=swap');
+
+body {
+  font-family: 'Jost', sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+}
+
+header, section {
+  margin: 20px;
+  padding: 15px;
+}
+
+#map {
+  width: 960px;
+  height: 600px;
+  border: 1px solid #aaa;
+}
+
+h1, h2 {
+  font-weight: 600;
+  color: #333;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.header {
+  display: flex;
+  justify-content: center; /* Center the navbar horizontally */
+  align-items: center; /* Center the navbar vertically */
+  padding: 10px 0; /* Add padding on top and bottom */
+}
+
+.navbar {
+  position: relative;
+  width: auto; /* Allow the navbar to size with content */
+}
+
+.box_1, .box_2 {
+  display: inline-block; /* Make the boxes inline elements */
+  padding: 10px 20px; /* Increase padding for a larger clickable area */
+  font-size: 22px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.box_1 {
+  background-color: white;
+  border: 0.1em solid black;
+  color: black;
+  text-decoration: none; /* Remove underline from links */
+}
+
+.box_2 {
+  background-color: black;
+  color: white;
+  position: absolute; /* Position box_2 on top of box_1 */
+  top: 0;
+  right: 0; /* Align box_2 to the right */
+}
+
+/* Hover effects */
+.box_1:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Adjust the main content to not overlap the navbar */
+main {
+  padding-top: 60px; /* Adjust the padding to ensure there's space below the header */
+}
