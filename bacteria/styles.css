@@ -37,46 +37,58 @@ p {
   font-weight: 300;
 }
 
-.header {
-  display: flex;
-  justify-content: center; /* Center the navbar horizontally */
-  align-items: center; /* Center the navbar vertically */
-  padding: 10px 0; /* Add padding on top and bottom */
+.top {
+    width: 100%;
+    height: 100vh;
 }
-
+.header{
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+}
 .navbar {
-  position: relative;
-  width: auto; /* Allow the navbar to size with content */
+    padding-top: 5%;
+    position: relative;
+    width: 300px;
+    height: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
-
-.box_1, .box_2 {
-  display: inline-block; /* Make the boxes inline elements */
-  padding: 10px 20px; /* Increase padding for a larger clickable area */
-  font-size: 22px;
-  text-align: center;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
 .box_1 {
-  background-color: white;
-  border: 0.1em solid black;
-  color: black;
-  text-decoration: none; /* Remove underline from links */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    border: 0.1em solid black;
+    margin-top: 15%;
+    font-size: 22px;
+    text-align: center;
+    padding: 0.5em;
+    cursor: pointer;
+    font-family: 'Jost', sans-serif;
 }
-
+a {
+    text-decoration: none;
+ }
+b {
+    color: black;
+}
 .box_2 {
-  background-color: black;
-  color: white;
-  position: absolute; /* Position box_2 on top of box_1 */
-  top: 0;
-  right: 0; /* Align box_2 to the right */
-}
-
-/* Hover effects */
-.box_1:hover {
-  background-color: black;
-  color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background-color: black;
+    border: 0.1em solid black;
+    margin-top: 15%;
+    font-size: 22px;
+    text-align: center;
+    padding: 0.5em;
+    cursor: pointer;
 }
 
 /* Adjust the main content to not overlap the navbar */
